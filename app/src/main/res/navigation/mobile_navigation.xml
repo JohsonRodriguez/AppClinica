@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navFragCitas">
+    <fragment
+        android:id="@+id/navFragCitas"
+        android:name="com.example.loginactivity.Fragment.CitasFragment"
+        android:label="@string/valFragCitas"
+        tools:layout="@layout/fragment_citas" />
+    <fragment
+        android:id="@+id/navFragDoctores"
+        android:name="com.example.loginactivity.Fragment.DoctoresFragment"
+        android:label="@string/valFragDoctores"
+        tools:layout="@layout/fragment_doctores" />
+    <fragment
+        android:id="@+id/navFragResultados"
+        android:name="com.example.loginactivity.Fragment.MapaFragment"
+        android:label="@string/valFragMapa"
+        tools:layout="@layout/fragment_resultados" />
+    
+
+
+</navigation>

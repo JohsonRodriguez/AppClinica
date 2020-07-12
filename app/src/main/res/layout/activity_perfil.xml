@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".PerfilActivity">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="14dp"
+        android:text="Mi Perfil"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="114dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/user" />
+        //Nombres
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvnombreP"
+                android:layout_width="90dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:text="Nombre"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvapellidoP"
+                android:layout_width="90dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:text="Apellido"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        //Datos
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="175dp"
+                    android:layout_height="14dp"
+                    android:text="DNI"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/etdniP"
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorText"
+                    android:text="Apellido"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="175dp"
+                    android:layout_height="14dp"
+                    android:text="Celular"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/etcelularP"
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorText"
+                    android:text="Apellido"
+                    android:textSize="15dp" />
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Correo Electrónico"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/etcorreoP"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Apellido"
+                android:textColor="@color/colorText"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout_button"
+            android:text="Editar Perfil"
+            android:textColor="#FFFF" />
+        <TextView
+            android:id="@+id/tvLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Cerrar Sesión"
+            android:textColor="#03215F"
+            android:textSize="14dp" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

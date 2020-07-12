@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".CitaActivity">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="14dp"
+        android:layout_gravity="center"
+        android:text="Registre su cita"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="504dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/etReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:text="Seleccione la especialidad"
+            android:textColor="#03215F"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/spEspecialidad"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/etReset2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:text="Seleccion el Medico"
+            android:textColor="#03215F"
+            android:textSize="12dp" />
+
+        <Spinner
+            android:id="@+id/spDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/etReset3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:text="Seleccione la Fecha"
+            android:textColor="#03215F"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/etfecha"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+           android:textSize="15dp"
+            android:inputType="datetime"
+            android:layout_gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/etReset4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:text="Seleccion el Horario"
+            android:textColor="#03215F"
+            android:textSize="12dp" />
+        <Spinner
+            android:id="@+id/spHorario"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btnRegistrarCita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/layout_button"
+            android:text="Registrar Cita"
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/etVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Volver al Menu"
+            android:textColor="#03215F"
+            android:textSize="12dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
